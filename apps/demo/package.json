@@ -15,7 +15,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@mds/typescript": "workspace:^",
+    "@mds/tsconfig": "workspace:^",
     "@types/react": "^18.0.16",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.0.0",

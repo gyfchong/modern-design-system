@@ -5,29 +5,6 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@acme/docs@workspace:apps/docs":
-  version: 0.0.0-use.local
-  resolution: "@acme/docs@workspace:apps/docs"
-  dependencies:
-    "@mds/core": "*"
-    "@mds/tsconfig": "*"
-    "@storybook/addon-actions": ^6.5.10
-    "@storybook/addon-docs": ^6.5.10
-    "@storybook/addon-essentials": ^6.5.10
-    "@storybook/addon-links": ^6.5.10
-    "@storybook/builder-vite": ^0.2.2
-    "@storybook/react": ^6.5.10
-    "@vanilla-extract/css": ^1.7.2
-    "@vanilla-extract/vite-plugin": ^3.3.0
-    "@vitejs/plugin-react": ^2.0.0
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    serve: ^14.0.1
-    typescript: ^4.7.4
-    vite: ^3.0.4
-  languageName: unknown
-  linkType: soft
-
 "@ampproject/remapping@npm:^2.1.0":
   version: 2.2.0
   resolution: "@ampproject/remapping@npm:2.2.0"
@@ -2110,7 +2087,30 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@mds/tsconfig@*, @mds/tsconfig@workspace:packages/tsconfig":
+"@mds/storybook@workspace:apps/storybook":
+  version: 0.0.0-use.local
+  resolution: "@mds/storybook@workspace:apps/storybook"
+  dependencies:
+    "@mds/core": "*"
+    "@mds/tsconfig": "*"
+    "@storybook/addon-actions": ^6.5.10
+    "@storybook/addon-docs": ^6.5.10
+    "@storybook/addon-essentials": ^6.5.10
+    "@storybook/addon-links": ^6.5.10
+    "@storybook/builder-vite": ^0.2.2
+    "@storybook/react": ^6.5.10
+    "@vanilla-extract/css": ^1.7.2
+    "@vanilla-extract/vite-plugin": ^3.3.0
+    "@vitejs/plugin-react": ^2.0.0
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    serve: ^14.0.1
+    typescript: ^4.7.4
+    vite: ^3.0.4
+  languageName: unknown
+  linkType: soft
+
+"@mds/tsconfig@*, @mds/tsconfig@workspace:^, @mds/tsconfig@workspace:packages/tsconfig":
   version: 0.0.0-use.local
   resolution: "@mds/tsconfig@workspace:packages/tsconfig"
   languageName: unknown
@@ -6568,6 +6568,7 @@ __metadata:
   resolution: "demo@workspace:apps/demo"
   dependencies:
     "@mds/core": "workspace:^"
+    "@mds/tsconfig": "workspace:^"
     "@types/react": ^18.0.16
     "@types/react-dom": ^18.0.6
     "@vanilla-extract/css": ^1.7.2
