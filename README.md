@@ -18,7 +18,7 @@ As well as a few others tools preconfigured:
 
 ## Getting Started
 
-Clone the design system example locally or [from GitHub](https://github.com/vercel/turborepo/tree/main/examples/design-system):
+Clone the design system example.
 
 ```bash
 cd modern-design-system
