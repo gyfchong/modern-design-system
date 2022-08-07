@@ -1,7 +1,6 @@
 {
   "name": "@mds/storybook",
   "version": "0.0.0",
-  "private": true,
   "scripts": {
     "dev": "start-storybook -p 6006",
     "build": "build-storybook --docs",
