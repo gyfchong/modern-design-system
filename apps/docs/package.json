@@ -1,0 +1,31 @@
+{
+  "name": "@acme/docs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "start-storybook -p 6006",
+    "build": "build-storybook --docs",
+    "preview-storybook": "serve storybook-static",
+    "clean": "rm -rf .turbo && rm -rf node_modules"
+  },
+  "dependencies": {
+    "@mds/core": "*",
+    "@vanilla-extract/css": "^1.7.2",
+    "@vanilla-extract/vite-plugin": "^3.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@mds/tsconfig": "*",
+    "@storybook/addon-actions": "^6.5.10",
+    "@storybook/addon-docs": "^6.5.10",
+    "@storybook/addon-essentials": "^6.5.10",
+    "@storybook/addon-links": "^6.5.10",
+    "@storybook/builder-vite": "^0.2.2",
+    "@storybook/react": "^6.5.10",
+    "@vitejs/plugin-react": "^2.0.0",
+    "serve": "^14.0.1",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.4"
+  }
+}
