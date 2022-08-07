@@ -1,28 +1,29 @@
-# Turborepo Design System Starter
+# Modern Design System
 
 This guide explains how to use a React design system starter powered by:
 
 - 🏎 [Turborepo](https://turborepo.org) — High-performance build system for Monorepos
 - 🚀 [React](https://reactjs.org/) — JavaScript library for user interfaces
+- 🚀 [Vanilla Extract](http://vanilla-extract.style/) — Zero-runtime Stylesheets in TypeScript for styling UI.
 - 🛠 [Tsup](https://github.com/egoist/tsup) — TypeScript bundler powered by esbuild
 - 📖 [Storybook](https://storybook.js.org/) — UI component environment powered by Vite
 
 As well as a few others tools preconfigured:
 
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
 - [Changesets](https://github.com/changesets/changesets) for managing versioning and changelogs
 - [GitHub Actions](https://github.com/changesets/action) for fully automated package publishing
+- [NVM](https://github.com/nvm-sh/nvm) for node version management
 
 ## Getting Started
 
 Clone the design system example locally or [from GitHub](https://github.com/vercel/turborepo/tree/main/examples/design-system):
 
 ```bash
-npx degit vercel/turborepo/examples/design-system design-system
-cd design-system
+cd modern-design-system
 yarn install
+rm -rf .github
 git init . && git add . && git commit -m "Init"
 ```
 
